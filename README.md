@@ -38,7 +38,7 @@ This project offers three fundamental network architectures, each serving distin
 ---
 
 ## Key Features
-[▲ Back to top](Automatic-Deployment-and-Provisioning-of-IT-Infrastructures-with-Terraform-and-Ansible)
+[▲ Back to top](#automatic-deployment-and-provisioning-of-it-infrastructures-with-terraform-and-ansible)
 
 * **Rapid Deployment**: Quickly create or destroy complex network topologies.
 * **Automated Configuration**: Utilize Ansible to automatically configure virtual machines (VMs).
@@ -47,7 +47,7 @@ This project offers three fundamental network architectures, each serving distin
 ---
 
 ## Prerequisites
-[▲ Back to top](Automatic-Deployment-and-Provisioning-of-IT-Infrastructures-with-Terraform-and-Ansible)
+[▲ Back to top](#automatic-deployment-and-provisioning-of-it-infrastructures-with-terraform-and-ansible)
 
 This setup is built and tested on the following stack:
 
@@ -58,7 +58,7 @@ This setup is built and tested on the following stack:
 - **Vagrant Box:** [bionic-server-cloudimg-amd64-vagrant-20230607.0.1.box](https://portal.cloud.hashicorp.com/vagrant/discover/ubuntu/bionic64/versions/20230607.0.1)
 
 ### Disclaimer 
-[▲ Back to top](Automatic-Deployment-and-Provisioning-of-IT-Infrastructures-with-Terraform-and-Ansible)
+[▲ Back to top](#automatic-deployment-and-provisioning-of-it-infrastructures-with-terraform-and-ansible)
 
 If you are using a newer version of VirtualBox (> 7.0.24), you might experience issues related to missing network connectivity.
 
@@ -80,10 +80,10 @@ After creating the NAT network, update the network adapter settings for each vir
 ---
 
 ## Getting Started
-[▲ Back to top](Automatic-Deployment-and-Provisioning-of-IT-Infrastructures-with-Terraform-and-Ansible)
+[▲ Back to top](#automatic-deployment-and-provisioning-of-it-infrastructures-with-terraform-and-ansible)
 
 ### Step 1: Install Terraform
-[▲ Back to top](Automatic-Deployment-and-Provisioning-of-IT-Infrastructures-with-Terraform-and-Ansible)
+[▲ Back to top](#automatic-deployment-and-provisioning-of-it-infrastructures-with-terraform-and-ansible)
 
 Follow the official [Terraform installation guide](https://developer.hashicorp.com/terraform/install).
 
@@ -119,7 +119,7 @@ Follow the official [Terraform installation guide](https://developer.hashicorp.c
    ```
 
 ### Step 2: Install Ansible
-[▲ Back to top](Automatic-Deployment-and-Provisioning-of-IT-Infrastructures-with-Terraform-and-Ansible)
+[▲ Back to top](#automatic-deployment-and-provisioning-of-it-infrastructures-with-terraform-and-ansible)
 
 On your Ansible Control Node (recommended: Ubuntu 20.04 VM), run:
 
@@ -145,7 +145,7 @@ host_key_checking = False
 ---
 
 ## Topology Customization
-[▲ Back to top](Automatic-Deployment-and-Provisioning-of-IT-Infrastructures-with-Terraform-and-Ansible)
+[▲ Back to top](#automatic-deployment-and-provisioning-of-it-infrastructures-with-terraform-and-ansible)
 
 Customize your desired topology by editing the provided `config.yaml` file. Use the included Python script to generate the required Terraform files:
 
@@ -164,7 +164,7 @@ This script will generate:
 ---
 
 ## Deployment with Terraform
-[▲ Back to top](Automatic-Deployment-and-Provisioning-of-IT-Infrastructures-with-Terraform-and-Ansible)
+[▲ Back to top](#automatic-deployment-and-provisioning-of-it-infrastructures-with-terraform-and-ansible)
 
 Deploy the infrastructure quickly using Terraform:
 
@@ -182,7 +182,7 @@ time terraform apply
 ---
 
 ## Configuration with Ansible
-[▲ Back to top](Automatic-Deployment-and-Provisioning-of-IT-Infrastructures-with-Terraform-and-Ansible)
+[▲ Back to top](#automatic-deployment-and-provisioning-of-it-infrastructures-with-terraform-and-ansible)
 
 After infrastructure deployment, configure your VMs:
 
@@ -298,4 +298,4 @@ ansible all -m ping
 
 For more details, refer to each topology's dedicated documentation within this repository.
 
-[▲ Back to top](Automatic-Deployment-and-Provisioning-of-IT-Infrastructures-with-Terraform-and-Ansible)
+[▲ Back to top](#automatic-deployment-and-provisioning-of-it-infrastructures-with-terraform-and-ansible)
