@@ -1,4 +1,4 @@
-## How to Use
+## 3-Legged Firewall - Deployment & Configuration Steps
 
 You can deploy and configure your network architecture using two different approaches. Choose the method that best fits your needs.
 
