@@ -157,8 +157,8 @@ python3 generate_main_file.py
 This script will generate:
 
 - A customized main.tf file for Terraform deployment
-- 1 Python script: start_vms.py for easily powering on your VMs
-- 1 Python script: stop_vms.py for easily powering off your VMs
+- A Python script: start_vms.py for easily powering on your VMs
+- A Python script: stop_vms.py for easily powering off your VMs
 - A user_data file needed to create the infrastructure using the provider terra-farm
 - topology.png that represents a diagram of the architecture that will be created using Terraform (the Host-Only network is not represented since every VM has it)
 
